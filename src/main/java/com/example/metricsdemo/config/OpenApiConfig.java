@@ -19,7 +19,7 @@ public class OpenApiConfig {
         localServer.setDescription("Local Development Server");
         
         Server ec2Server = new Server();
-        ec2Server.setUrl("http://18.221.52.172");
+        ec2Server.setUrl("http://18.223.239.154");
         ec2Server.setDescription("EC2 Production Server");
 
         Contact contact = new Contact();
